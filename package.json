@@ -1,0 +1,28 @@
+{
+  "name": "kirby-neubau",
+  "version": "1.0.0",
+  "description": "Minimalist, opinionated Kirby Plainkit version",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/css/styles.css -o ./public/assets/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusrogge/kirby-neubau.git"
+  },
+  "keywords": [
+    "kirby",
+    "cms",
+    "template",
+    "php"
+  ],
+  "author": "Linus Rogge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusrogge/kirby-neubau/issues"
+  },
+  "homepage": "https://github.com/linusrogge/kirby-neubau#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "tailwindcss": "^3.4.1"
+  }
+}

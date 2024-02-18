@@ -1,0 +1,84 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+
+.lock
+
+# Editors
+# (sensitive workspace files)
+# ---------------------------
+*.sublime-workspace
+/.vscode
+/.idea
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+
+/site/config/.license
+
+# Custom
+# ---------------
+
+node_modules
+.env
+/kirby
+/vendor
+/public/assets/css/styles.css
+
+
+# Plugins
+/site/plugins/*
+!/site/plugins/extended
+
+/site/plugins/project-*/vendor/**/.*
+/site/plugins/project-*/vendor/**/*.json
+/site/plugins/project-*/vendor/**/*.txt
+/site/plugins/project-*/vendor/**/*.md
+/site/plugins/project-*/vendor/**/*.yml
+/site/plugins/project-*/vendor/**/*.yaml
+/site/plugins/project-*/vendor/**/*.xml
+/site/plugins/project-*/vendor/**/*.dist
+/site/plugins/project-*/vendor/**/readme.php
+/site/plugins/project-*/vendor/**/LICENSE
+/site/plugins/project-*/vendor/**/COPYING
+/site/plugins/project-*/vendor/**/VERSION
+/site/plugins/project-*/vendor/**/docs/*
+/site/plugins/project-*/vendor/**/example/*
+/site/plugins/project-*/vendor/**/examples/*
+/site/plugins/project-*/vendor/**/test/*
+/site/plugins/project-*/vendor/**/tests/*
+/site/plugins/project-*/vendor/**/php4/*
+/site/plugins/project-*/vendor/getkirby/composer-installer

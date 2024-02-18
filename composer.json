@@ -1,0 +1,42 @@
+{
+  "name": "linusrogge/kirby-neubau",
+  "description": "Minimalist, opinionated Kirby Plainkit version",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "template",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Linus Rogge",
+      "email": "hello@linusrogge.com",
+      "homepage": "https://linusrogge.com"
+    }
+  ],
+  "homepage": "https://getkirby.com",
+  "support": {
+    "email": "hello@linusrogge.com",
+    "forum": "https://forum.getkirby.com",
+    "source": "https://github.com/linusrogge/kirby-plan"
+  },
+  "require": {
+    "php": ">=8.2.0",
+    "getkirby/cms": "^4.0",
+    "tobimori/kirby-spielzeug": "^2.1.0",
+    "bnomei/kirby3-dotenv": "^2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  }
+}
