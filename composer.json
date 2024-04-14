@@ -23,9 +23,9 @@
   },
   "require": {
     "php": ">=8.2.0",
-    "getkirby/cms": "^4.0",
-    "tobimori/kirby-spielzeug": "^2.1.0",
-    "bnomei/kirby3-dotenv": "^2.0"
+    "getkirby/cms": "^4.1",
+    "tobimori/kirby-spielzeug": "^2.1",
+    "bnomei/kirby3-dotenv": "^2.2"
   },
   "minimum-stability": "beta",
   "config": {
