@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Minimalist, opinionated Kirby Plainkit version",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/css/styles.css -o ./public/assets/css/styles.css --watch"
+    "watch": "npx tailwindcss -i ./src/css/styles.css -o ./public/assets/css/styles.css --watch --postcss --minify"
   },
   "repository": {
     "type": "git",
