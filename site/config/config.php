@@ -15,7 +15,7 @@ return [
 
   # Panel
   'panel' => [
-    'css' => 'public/assets/css/panel.css',
+    'css' => 'assets/css/panel.css',
     'menu' => fn () => [
       'site' => Menu::site(),
       '-',
