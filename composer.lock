@@ -1849,9 +1849,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": {
-        "getkirby/cms": 5
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
