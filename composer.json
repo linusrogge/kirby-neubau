@@ -23,8 +23,8 @@
   },
   "require": {
     "php": ">=8.2.0",
-    "getkirby/cms": "^4.3@RC",
-    "tobimori/kirby-spielzeug": "^2.1",
+    "getkirby/cms": "^4.3",
+    "tobimori/kirby-spielzeug": "^2.2",
     "bnomei/kirby3-dotenv": "^2.2"
   },
   "minimum-stability": "beta",
