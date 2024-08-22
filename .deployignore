@@ -1,0 +1,17 @@
+.deployignore
+.gitignore
+.env.sample
+
+composer.json
+composer.lock
+package.json
+package-lock.json
+node_modules
+
+postcss.config.js
+tailwind.config.js
+
+README.md
+
+/src
+/src/**
