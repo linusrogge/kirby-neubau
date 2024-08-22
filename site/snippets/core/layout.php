@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= $site->title() ?></title>
 
+  <?php if ($favicon = $site->favicon()->toFile()): ?>
+    <link rel="icon" type="<?= $favicon->mime() ?>" href="<?= $favicon->url() ?>">
+  <?php endif; ?>
+
   <?= css('assets/css/styles.css') ?>
 </head>
 <body>

@@ -13,7 +13,6 @@ download-content: Download Content (.zip)
 error: Error Page
 flush-cache: Flush Cache
 footer: Footer
-global-settings: Global Settings
 grid-view: Grid View
 home: Home
 image: Image
@@ -32,3 +31,8 @@ super-editor: Super Editor
 super-editor-description: Has access to all content, but no administrative tools.
 text: Text
 default-blueprint: Default blueprint
+general-settings: General
+
+# Blueprints
+blueprint.favicon.title: Favicon
+blueprint.logo.title: Logo

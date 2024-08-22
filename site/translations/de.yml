@@ -13,7 +13,6 @@ download-content: Inhalte herunterladen (.zip)
 error: Fehlerseite
 flush-cache: Cache leeren
 footer: Footer
-global-settings: Globale Einstellungen
 grid-view: Rasteransicht
 home: Startseite
 image: Bild
@@ -32,3 +31,8 @@ super-editor: Super-Editor
 super-editor-description: Hat Zugriff auf alle Inhalte, aber keine administrativen Tools.
 text: Text
 default-blueprint: Standardvorlagen
+general-settings: Allgemein
+
+# Blueprints
+blueprint.favicon.title: Favicon
+blueprint.logo.title: Logo

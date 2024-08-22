@@ -1,0 +1,5 @@
+title: blueprint.favicon.title
+accept:
+  mime: image/*
+  type: image
+focus: false

@@ -1,0 +1,5 @@
+title: blueprint.logo.title
+accept:
+  - image/svg
+  - image/svg+xml
+focus: false

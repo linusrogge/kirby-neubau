@@ -1,5 +1,36 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs:
+  content:
+    label: content
+    icon: text
+    sections:
+      pages:
+        type: pages
+  settings:
+    label: settings
+    icon: settings
+    columns:
+      - width: 1/3
+        fields:
+          general:
+            type: headline
+            label: general-settings
+      - width: 2/3
+        fields:
+          favicon: &image
+            type: files
+            multiple: false
+            image:
+              back: white
+            uploads:
+              template: favicon
+            width: 1/2
+          logo:
+            <<: *image
+            uploads:
+              template: logo
+      - width: 1/1
+        fields:
+          _line:
+            type: line
