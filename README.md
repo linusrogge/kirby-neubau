@@ -4,7 +4,37 @@
 
 A minimalist, opinionated Kirby Plainkit version. Mostly similar to the [Kirby Plainkit](https://github.com/getkirby/plainkit) with a few adjustments to spare time when starting a new project.
 
-Documentation will follow.
+---
+
+### Create
+
+Use this template via [Composer](https://getcomposer.org) with the command
+
+```
+composer create-project linusrogge/kirby-neubau
+```
+
+or, alternatively, clone the repository and run
+
+```
+composer install
+```
+
+### Install
+
+Then open the folder and run
+
+```
+cp .env.sample .env
+```
+
+and
+
+```
+npm install
+```
+
+Now you are ready to start the development server with `composer start` and `npm run watch`.
 
 ---
 
