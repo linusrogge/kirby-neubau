@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa864705e4784e57da2c7294b8ad088f",
+    "content-hash": "4fbfb50aed3b65d6c3dff87b12cf9be2",
     "packages": [
         {
             "name": "bnomei/autoloader-for-kirby",
-            "version": "4.3.2",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bnomei/autoloader-for-kirby.git",
-                "reference": "e2732971b7afb46a8df5c9b3de9721ef166e6283"
+                "reference": "14b4eaab828f2d6a1752e95af9b97196abf93d5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/autoloader-for-kirby/zipball/e2732971b7afb46a8df5c9b3de9721ef166e6283",
-                "reference": "e2732971b7afb46a8df5c9b3de9721ef166e6283",
+                "url": "https://api.github.com/repos/bnomei/autoloader-for-kirby/zipball/14b4eaab828f2d6a1752e95af9b97196abf93d5c",
+                "reference": "14b4eaab828f2d6a1752e95af9b97196abf93d5c",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,7 @@
             ],
             "support": {
                 "issues": "https://github.com/bnomei/autoloader-for-kirby/issues",
-                "source": "https://github.com/bnomei/autoloader-for-kirby/tree/v4.3.2"
+                "source": "https://github.com/bnomei/autoloader-for-kirby/tree/v4.4.0"
             },
             "funding": [
                 {
@@ -106,7 +106,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-07-22T13:31:47+00:00"
+            "time": "2024-08-20T16:42:51+00:00"
         },
         {
             "name": "bnomei/kirby3-dotenv",
@@ -1055,16 +1055,16 @@
         },
         {
             "name": "psr/log",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
+                "reference": "79dff0b268932c640297f5208d6298f71855c03e",
                 "shasum": ""
             },
             "require": {
@@ -1099,9 +1099,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.0"
+                "source": "https://github.com/php-fig/log/tree/3.0.1"
             },
-            "time": "2021-07-14T16:46:02+00:00"
+            "time": "2024-08-21T13:31:24+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1856,7 +1856,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
