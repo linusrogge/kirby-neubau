@@ -52,12 +52,12 @@ Icon
 # Custom
 # ---------------
 
-node_modules
+/node_modules
 .env
 /kirby
 /vendor
 /assets/css/styles.css
-
+/content
 
 # Plugins
 /site/plugins/*
