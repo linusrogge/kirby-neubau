@@ -19,7 +19,7 @@
   "support": {
     "email": "hello@linusrogge.com",
     "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/linusrogge/kirby-plan"
+    "source": "https://github.com/linusrogge/kirby-neubau"
   },
   "require": {
     "php": ">=8.2.0",
