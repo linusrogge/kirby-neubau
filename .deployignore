@@ -1,4 +1,5 @@
 .deployignore
+.editorconfig
 .gitignore
 .env.sample
 
@@ -7,6 +8,7 @@ composer.lock
 package.json
 package-lock.json
 node_modules
+node_modules/**
 
 postcss.config.js
 tailwind.config.js
