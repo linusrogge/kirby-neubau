@@ -41,4 +41,7 @@
   display: none;
 }
 
+/* Adjust Padding on List items with no image */
+.k-list-item:not(:has(figure)) .k-item-content {
+  padding-left: .625rem;
 }
