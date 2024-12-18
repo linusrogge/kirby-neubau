@@ -8,27 +8,37 @@
   margin-top: 12px;
   margin-inline: 0;
   gap: var(--spacing-2);
+}
 
-  .k-tab-button {
-    --button-color-icon: var(--button-color-dimmed-off);
-    --button-text-color: var(--button-color-dimmed-off);
-    padding-right: var(--spacing-3);
-    color: #000;
+.k-tabs .k-tab-button {
+  padding-right: var(--spacing-3);
+  border: 1px dashed transparent;
+}
 
-    &:hover {
-      --button-color-icon: var(--button-color-dimmed-off);
-      background: rgba(0, 0, 0, 0.05);
-    }
+.k-tabs .k-tab-button .k-button-icon {
+  --icon-color: var(--color-text-dimmed) !important;
+}
 
-    &[aria-current] {
-      --button-color-text: #000;
-      --button-color-icon: #000;
-      background: #fff;
-      box-shadow: var(--shadow);
+.k-tabs .k-tab-button:not([aria-current]):hover {
+  border-color: light-dark(var(--color-gray-400), var(--color-gray-800));
+}
 
-      &::after {
-        display: none;
-      }
-    }
-  }
+.k-tabs .k-tab-button[aria-current] {
+  --button-color-back: light-dark(var(--color-white), var(--color-gray-850)) !important;
+  color: light-dark(var(--color-black), var(--color-white)) !important;
+  box-shadow: var(--shadow);
+}
+
+.k-button:where([data-variant=dimmed]):not([aria-disabled=true]):is(:hover,[aria-current=true]) .k-button-text {
+  filter: brightness(100%) !important;
+}
+
+.k-tabs .k-tab-button[aria-current] .k-button-icon {
+  --icon-color: light-dark(var(--color-black), var(--color-white)) !important;
+}
+
+.k-tabs .k-tab-button::after {
+  display: none;
+}
+
 }
