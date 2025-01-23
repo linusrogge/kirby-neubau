@@ -1,6 +1,6 @@
 {
   "name": "kirby-neubau",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "Minimalist, opinionated Kirby Plainkit version",
   "scripts": {
     "watch": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --watch",
