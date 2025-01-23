@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  /* Tailwind Theme Config here
+   * For more information, see https://tailwindcss.com/docs
+  */
+}
 
 @layer base {
   /* Fix Safari issue related to <summary> / <details> arrow */

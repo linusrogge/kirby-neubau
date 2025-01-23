@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimalist, opinionated Kirby Plainkit version",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --watch --postcss",
-    "build": "npx tailwindcss -i ./src/css/styles.css -o ./assets/css/styles.css --postcss --minify"
+    "watch": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --minify"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/linusrogge/kirby-neubau#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "tailwindcss": "^3.4.4"
+    "@tailwindcss/cli": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }
