@@ -966,12 +966,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -1491,16 +1491,16 @@
         },
         {
             "name": "tobimori/kirby-spielzeug",
-            "version": "2.4.0",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-spielzeug.git",
-                "reference": "ebf0ccdad09262451033d743816cf2df81dcd620"
+                "reference": "7323889f76913931931594ad151d7a6898cbd89c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-spielzeug/zipball/ebf0ccdad09262451033d743816cf2df81dcd620",
-                "reference": "ebf0ccdad09262451033d743816cf2df81dcd620",
+                "url": "https://api.github.com/repos/tobimori/kirby-spielzeug/zipball/7323889f76913931931594ad151d7a6898cbd89c",
+                "reference": "7323889f76913931931594ad151d7a6898cbd89c",
                 "shasum": ""
             },
             "require": {
@@ -1534,7 +1534,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tobimori/kirby-spielzeug/issues",
-                "source": "https://github.com/tobimori/kirby-spielzeug/tree/2.4.0"
+                "source": "https://github.com/tobimori/kirby-spielzeug/tree/2.4.2"
             },
             "funding": [
                 {
@@ -1542,7 +1542,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-09T11:15:59+00:00"
+            "time": "2025-01-13T14:24:28+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
