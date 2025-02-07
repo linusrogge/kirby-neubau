@@ -8,6 +8,7 @@
     "template",
     "php"
   ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Linus Rogge",
