@@ -57,6 +57,7 @@ Icon
 /kirby
 /vendor
 /assets/css/styles.css
+/assets/js/scripts.js
 /content
 
 # Plugins

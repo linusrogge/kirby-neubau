@@ -3,8 +3,12 @@
   "version": "1.4.0",
   "description": "Minimalist, opinionated Kirby Plainkit version",
   "scripts": {
-    "watch": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --watch",
-    "build": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --minify"
+    "watch:css": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --watch",
+    "watch:js": "esbuild src/js/scripts.js --bundle --outfile=assets/js/scripts.js --watch",
+    "watch": "npm-run-all --parallel watch:css watch:js",
+    "build:css": "npx @tailwindcss/cli -i ./src/css/styles.css -o ./assets/css/styles.css --minify",
+    "build:js": "esbuild src/js/scripts.js --bundle --minify --outfile=assets/js/scripts.js",
+    "build": "npm-run-all build:css build:js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +29,8 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",
     "@tailwindcss/postcss": "^4.0.0",
+    "esbuild": "^0.25.1",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^4.0.0"
   }
 }

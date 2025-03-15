@@ -17,5 +17,7 @@
     <?= $slot ?>
   </main>
   <?= snippet('core/footer') ?>
+
+  <?= js('assets/js/scripts.js') ?>
 </body>
 </html>
